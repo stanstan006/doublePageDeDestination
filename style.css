@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.split{
+    width: 50%;
+    height: 100%;
+    top: 0;
+}
+
+.btn{
+    padding: 20px 40px;
+    background-color: black;
+    font-size: 25px;
+    color: white;
+    border: 4px solid;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+#left{
+    position: absolute;
+    left: 0;
+    background-color: pink;
+    background-image: url("https://www.eas.ci/wp-content/uploads/2024/01/iPhone-15-Pro-Max-512-Go-Rose.webp");
+    background-size: cover;
+}
+
+#right{
+    position: absolute;
+    right: 0;
+    background-color: lightblue;
+    background-image: url("https://images.samsung.com/is/image/samsung/p6pim/ca_fr/translationfeature/164941610/ca_fr-featureunit-galaxy-s24-539511291?$FB_TYPE_A_MO_JPG$");
+    background-size: cover;
+}
+h1{
+    font-size: 100px;
+    color: aliceblue;
+    backdrop-filter: brightness(.5);
+    letter-spacing: 4px;
+
+}
