@@ -12,6 +12,7 @@ body{
     width: 50%;
     height: 100%;
     top: 0;
+    overflow: hidden;
 }
 
 .btn{
@@ -22,6 +23,7 @@ body{
     border: 4px solid;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+    white-space: nowrap;
 }
 
 .btn:hover{
@@ -49,5 +51,22 @@ h1{
     color: aliceblue;
     backdrop-filter: brightness(.5);
     letter-spacing: 4px;
+}
 
+.active-left .left{
+    width: 75%;
+}
+.active-left .right{
+    width: 25%;
+}
+
+.active-right .left{
+    width: 25%;
+}
+.active-right .right{
+    width: 75%;
+}
+
+#right, #left{
+    transition: .24s ease-in-out;
 }
